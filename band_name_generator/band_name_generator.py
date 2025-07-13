@@ -13,4 +13,4 @@ class BandNameGenerator:
     def run(self):
         print("Welcome to the Band Name Generator!")
         self.get_user_input()
-        print(f"Your band name could be: {self.generate_name}")
+        print(f"Your band name could be: {self.generate_name()}")
